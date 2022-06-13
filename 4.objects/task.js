@@ -44,7 +44,7 @@ Student.prototype.exclude = function (reson) {
 // student1.addMark(5);
 // console.log(student1.getAverage());
 
-// let student2 = new Student("Ann", "female", 34);
+// let student2 = new Student("Ann", "female", 35);
 // student2.setSubject("Programming");
 // student2.addMark(2);
 // student2.addMark(3);
