@@ -1,10 +1,12 @@
+// Задание 1
+
 function Student(name, gender, age) {
   this.name = name;
   this.gender = gender;
   this.age = age;
 
 }
-  
+
 Student.prototype.setSubject = function (subjectName) {
   this.subject = subjectName;
 }
@@ -35,20 +37,20 @@ Student.prototype.exclude = function (reson) {
   this.excluded = reson;
 };
 
-let student1 = new Student("Mark", "male", 45);
-student1.setSubject("Programming");
-student1.addMark(5);
-student1.addMark(4);
-student1.addMark(5);
-console.log(student1.getAverage());
+// let student1 = new Student("Mark", "male", 45);
+// student1.setSubject("Programming");
+// student1.addMark(5);
+// student1.addMark(4);
+// student1.addMark(5);
+// console.log(student1.getAverage());
 
-let student2 = new Student("Ann", "female", 34);
-student2.setSubject("Programming");
-student2.addMark(2);
-student2.addMark(3);
-student2.addMark(2);
-console.log(student2.getAverage());
-student2.exclude('low grades');
+// let student2 = new Student("Ann", "female", 34);
+// student2.setSubject("Programming");
+// student2.addMark(2);
+// student2.addMark(3);
+// student2.addMark(2);
+// console.log(student2.getAverage());
+// student2.exclude('Low grades');
 
-console.log(student1);
-console.log(student2);
+// console.log(student1);
+// console.log(student2);
