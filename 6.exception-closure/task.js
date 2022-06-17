@@ -60,5 +60,4 @@ function getTriangle(a, b, c) {
         }
     }
 }
-
 // console.log(getTriangle(3, 5, 7))
